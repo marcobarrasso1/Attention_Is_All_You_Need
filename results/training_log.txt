@@ -1,0 +1,95 @@
+Iteration 0 | Train Loss: 4.5507 | learning rate: 0.000144
+Iteration 0 | Val Loss: 1.8181
+Model weights saved to weights/model_weights_epoch_0.pth
+Iteration 1 | Train Loss: 1.3411 | learning rate: 0.000288
+Iteration 2 | Train Loss: 0.7866 | learning rate: 0.000432
+Iteration 3 | Train Loss: 0.5978 | learning rate: 0.000576
+Iteration 4 | Train Loss: 0.5275 | learning rate: 0.000688
+Iteration 5 | Train Loss: 0.4651 | learning rate: 0.000628
+Iteration 5 | Val Loss: 0.3735
+Iteration 6 | Train Loss: 0.4035 | learning rate: 0.000582
+Iteration 7 | Train Loss: 0.3604 | learning rate: 0.000544
+Iteration 8 | Train Loss: 0.3262 | learning rate: 0.000513
+Iteration 9 | Train Loss: 0.3011 | learning rate: 0.000487
+Iteration 10 | Train Loss: 0.2798 | learning rate: 0.000464
+Iteration 10 | Val Loss: 0.2396
+Model weights saved to weights/model_weights_epoch_10.pth
+Iteration 11 | Train Loss: 0.2627 | learning rate: 0.000444
+Iteration 12 | Train Loss: 0.2501 | learning rate: 0.000427
+Iteration 13 | Train Loss: 0.2373 | learning rate: 0.000411
+Iteration 14 | Train Loss: 0.2278 | learning rate: 0.000397
+Iteration 15 | Train Loss: 0.2198 | learning rate: 0.000385
+Iteration 15 | Val Loss: 0.1912
+Iteration 16 | Train Loss: 0.2111 | learning rate: 0.000373
+Iteration 17 | Train Loss: 0.2044 | learning rate: 0.000363
+Iteration 18 | Train Loss: 0.1990 | learning rate: 0.000353
+Iteration 19 | Train Loss: 0.1936 | learning rate: 0.000344
+Iteration 20 | Train Loss: 0.1890 | learning rate: 0.000336
+Iteration 20 | Val Loss: 0.1657
+Model weights saved to weights/model_weights_epoch_20.pth
+Iteration 21 | Train Loss: 0.1846 | learning rate: 0.000328
+Iteration 22 | Train Loss: 0.1799 | learning rate: 0.000321
+Iteration 23 | Train Loss: 0.1762 | learning rate: 0.000314
+Iteration 24 | Train Loss: 0.1735 | learning rate: 0.000308
+Iteration 25 | Train Loss: 0.1701 | learning rate: 0.000302
+Iteration 25 | Val Loss: 0.1509
+Iteration 26 | Train Loss: 0.1674 | learning rate: 0.000296
+Iteration 27 | Train Loss: 0.1643 | learning rate: 0.000291
+Iteration 28 | Train Loss: 0.1625 | learning rate: 0.000286
+Iteration 29 | Train Loss: 0.1600 | learning rate: 0.000281
+Iteration 30 | Train Loss: 0.1581 | learning rate: 0.000276
+Iteration 30 | Val Loss: 0.1442
+Model weights saved to weights/model_weights_epoch_30.pth
+Iteration 31 | Train Loss: 0.1563 | learning rate: 0.000272
+Iteration 32 | Train Loss: 0.1545 | learning rate: 0.000268
+Iteration 33 | Train Loss: 0.1526 | learning rate: 0.000264
+Iteration 34 | Train Loss: 0.1511 | learning rate: 0.00026
+Iteration 35 | Train Loss: 0.1494 | learning rate: 0.000256
+Iteration 35 | Val Loss: 0.1358
+Iteration 36 | Train Loss: 0.1480 | learning rate: 0.000253
+Iteration 37 | Train Loss: 0.1470 | learning rate: 0.00025
+Iteration 38 | Train Loss: 0.1453 | learning rate: 0.000246
+Iteration 39 | Train Loss: 0.1439 | learning rate: 0.000243
+Iteration 40 | Train Loss: 0.1428 | learning rate: 0.00024
+Iteration 40 | Val Loss: 0.1309
+Model weights saved to weights/model_weights_epoch_40.pth
+Iteration 41 | Train Loss: 0.1419 | learning rate: 0.000237
+Iteration 42 | Train Loss: 0.1412 | learning rate: 0.000235
+Iteration 43 | Train Loss: 0.1402 | learning rate: 0.000232
+Iteration 44 | Train Loss: 0.1392 | learning rate: 0.000229
+Iteration 45 | Train Loss: 0.1376 | learning rate: 0.000227
+Iteration 45 | Val Loss: 0.1275
+Iteration 46 | Train Loss: 0.1368 | learning rate: 0.000224
+Iteration 47 | Train Loss: 0.1363 | learning rate: 0.000222
+Iteration 48 | Train Loss: 0.1352 | learning rate: 0.00022
+Iteration 49 | Train Loss: 0.1345 | learning rate: 0.000218
+Iteration 50 | Train Loss: 0.1339 | learning rate: 0.000215
+Iteration 50 | Val Loss: 0.1252
+Model weights saved to weights/model_weights_epoch_50.pth
+Iteration 51 | Train Loss: 0.1331 | learning rate: 0.000213
+Iteration 52 | Train Loss: 0.1321 | learning rate: 0.000211
+Iteration 53 | Train Loss: 0.1313 | learning rate: 0.000209
+Iteration 54 | Train Loss: 0.1308 | learning rate: 0.000207
+Iteration 55 | Train Loss: 0.1303 | learning rate: 0.000206
+Iteration 55 | Val Loss: 0.1222
+Iteration 56 | Train Loss: 0.1295 | learning rate: 0.000204
+Iteration 57 | Train Loss: 0.1291 | learning rate: 0.000202
+Iteration 58 | Train Loss: 0.1289 | learning rate: 0.0002
+Iteration 59 | Train Loss: 0.1278 | learning rate: 0.000199
+Iteration 60 | Train Loss: 0.1272 | learning rate: 0.000197
+Iteration 60 | Val Loss: 0.1196
+Model weights saved to weights/model_weights_epoch_60.pth
+Iteration 61 | Train Loss: 0.1270 | learning rate: 0.000195
+Iteration 62 | Train Loss: 0.1264 | learning rate: 0.000194
+Iteration 63 | Train Loss: 0.1253 | learning rate: 0.000192
+Iteration 64 | Train Loss: 0.1253 | learning rate: 0.000191
+Iteration 65 | Train Loss: 0.1245 | learning rate: 0.000189
+Iteration 65 | Val Loss: 0.1186
+Iteration 66 | Train Loss: 0.1244 | learning rate: 0.000188
+Iteration 67 | Train Loss: 0.1240 | learning rate: 0.000187
+Iteration 68 | Train Loss: 0.1247 | learning rate: 0.000185
+Iteration 69 | Train Loss: 0.1227 | learning rate: 0.000184
+Iteration 70 | Train Loss: 0.1225 | learning rate: 0.000183
+Iteration 70 | Val Loss: 0.1170
+Model weights saved to weights/model_weights_epoch_70.pth
+Iteration 71 | Train Loss: 0.1223 | learning rate: 0.000181
