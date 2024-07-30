@@ -25,7 +25,7 @@ device = th.device("cuda") if th.cuda.is_available() else th.device("cpu")
 model = Transformer(Config)
 model.to(device)
 
-state_dict = th.load('weights/model_weights_epoch_20.pth', map_location=device) # load the model parameters
+state_dict = th.load('weights/model_weights_epoch_70.pth', map_location=device) # load the model parameters
 
 new_state_dict = OrderedDict()
 for k, v in state_dict.items():
