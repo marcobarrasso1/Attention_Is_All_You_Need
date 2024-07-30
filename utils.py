@@ -3,6 +3,7 @@ import random
 from torch.nn import functional as F
 
 from config import Config
+from encoding.tokenization import enc
 
 # function to translate    
 def pred(src_seq, model):
@@ -53,3 +54,17 @@ def test(n, model):
         
         print(f"Prediction: {clean_decode(out)}, True: {clean_decode(true_seq.tolist())}, Source: {clean_decode(src_seq[0].tolist())} \n")
     print("*"*30)
+
+
+def translate(sentence, model):
+    
+    pad_token_id = 50259
+    print(sentence)
+    sentence = enc.encode(sentence + "</s>", allowed_special={'</s>'})
+    sentence = sentence[:Config.len_seq] + [pad_token_id] * (Config.len_seq - len(sentence))
+    sentence = th.tensor(sentence, dtype=th.long).unsqueeze(0)
+    sentence = sentence.to(device)
+    
+    translation = pred(sentence, model)
+    
+    print(clean_decode(translation))
