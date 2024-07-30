@@ -1,7 +1,7 @@
 import torch as th
 from collections import OrderedDict
 
-from utils import pred, clean_decode, translate
+from utils import clean_decode, translate
 from model import Transformer
 from config import Config
 from encoding.tokenizer import enc
