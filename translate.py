@@ -1,24 +1,10 @@
 import torch as th
 from collections import OrderedDict
 
-from utils import pred, clean_decode
+from utils import pred, clean_decode, translate
 from model import Transformer
 from config import Config
 from encoding.tokenizer import enc
-
-
-def translate(sentence, model):
-    
-    pad_token_id = 50259
-    print(sentence)
-    sentence = enc.encode(sentence + "</s>", allowed_special={'</s>'})
-    sentence = sentence[:Config.len_seq] + [pad_token_id] * (Config.len_seq - len(sentence))
-    sentence = th.tensor(sentence, dtype=th.long).unsqueeze(0)
-    sentence = sentence.to(device)
-    
-    translation = pred(sentence, model)
-    
-    print(clean_decode(translation))
     
 
 device = th.device("cuda") if th.cuda.is_available() else th.device("cpu")
