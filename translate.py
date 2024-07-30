@@ -1,9 +1,10 @@
 import torch as th
 from collections import OrderedDict
 
-from model import Transformer, pred, clean_decode
+from random_test import pred, clean_decode
+from model import Transformer
 from config import Config
-from tokenizer import enc
+from encoding.tokenizer import enc
 
 
 def translate(sentence, model):
@@ -38,6 +39,7 @@ for k, v in state_dict.items():
         name = k
     new_state_dict[name] = v
 
+# load the weights
 model.load_state_dict(new_state_dict)
 
 sentence = input("Enter a sentence: ")
