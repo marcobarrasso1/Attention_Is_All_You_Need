@@ -30,18 +30,10 @@ for line in lines:
     if len(parts) >= 2:
         parallel_sentences.append((parts[0].strip(), parts[1].strip()))
 
-<<<<<<< HEAD:tokenization.py
-=======
-
->>>>>>> 6a432df (added files):encoding/tokenization.py
 # tokenize the sentences adding the end of sequence token
 tokenized_parallel_sentences = [(enc.encode(eng + "</s>", allowed_special={'</s>'}), enc.encode(it + "</s>", allowed_special={'</s>'}))
                                 for eng, it in parallel_sentences]    
 
 # Save the tokenized sentences into a file
-<<<<<<< HEAD:tokenization.py
-with open('data/tokenized_parallel_sentences.pkl', 'wb') as f:
-=======
 with open('../data/tokenized_parallel_sentences.pkl', 'wb') as f:
->>>>>>> 6a432df (added files):encoding/tokenization.py
     pickle.dump(tokenized_parallel_sentences, f)    
