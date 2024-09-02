@@ -1,3 +1,11 @@
 data/*.txt filter=lfs diff=lfs merge=lfs -text
 data/tokenized_parallel_sentences.pkl filter=lfs diff=lfs merge=lfs -text
 data/data_loader_val.pth filter=lfs diff=lfs merge=lfs -text
+weights/model_weights_epoch_18.pth filter=lfs diff=lfs merge=lfs -text
+weights/model_weights_epoch_21.pth filter=lfs diff=lfs merge=lfs -text
+weights/model_weights_epoch_3.pth filter=lfs diff=lfs merge=lfs -text
+weights/model_weights_epoch_6.pth filter=lfs diff=lfs merge=lfs -text
+weights/model_weights_epoch_9.pth filter=lfs diff=lfs merge=lfs -text
+weights/model_weights_epoch_0.pth filter=lfs diff=lfs merge=lfs -text
+weights/model_weights_epoch_12.pth filter=lfs diff=lfs merge=lfs -text
+weights/model_weights_epoch_15.pth filter=lfs diff=lfs merge=lfs -text
