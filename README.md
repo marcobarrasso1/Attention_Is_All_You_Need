@@ -20,7 +20,7 @@ Example:
 ('In the U.S., it is illegal to torture people in order to get information from them.', <br>
  'Negli Stati Uniti è illegale torturare le persone per poter ottenere informazioni da loro.') 
  
- -After tokenization: 
+ -After tokenization: <br>
  ([818,262,471,13,50,1539,340,318,5293,284,11543,661,287,1502,284,651,1321,422,606,13,50258],
  [32863,4528,5133,72,791,8846,6184,101,4416,1000,7619,333,533,443,2774,505,583,1787,263,267,32407,567,4175,1031,295,72,12379,300,16522,13,50258])
  
