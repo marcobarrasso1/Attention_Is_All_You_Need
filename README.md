@@ -17,9 +17,7 @@ the tokenized sentence in the target language.
 Example:
 
 -Parallele sentences in the dataset: 
-
 ('In the U.S., it is illegal to torture people in order to get information from them.',
-
  'Negli Stati Uniti è illegale torturare le persone per poter ottenere informazioni da loro.') 
  
  -After tokenization: 
