@@ -3,7 +3,7 @@
 In this repo i tried to reproduce the transformer from the paper <a href="https://arxiv.org/pdf/1706.03762" target="_blank">Attention_Is_All_You_Need<a> and use it to make some translation from English-to-Italian. The network uses an Encoder-Decoder architecture based solely on attention mechanisms. The code for the Transformer can be found in the [model.py](model.py) file.
 
 ## Dataset
-I decided to use the [Europarl Parallel Corpus]([model.py](https://www.statmt.org/europarl/)) Italian-English which is composed by 1,909,115 parallel sentences which is much smaller corpus than the one used in the paper (17M sentences). You can also find the .txt files inside the [data](data) directory.
+I decided to use the [Europarl Parallel Corpus](https://www.statmt.org/europarl/) Italian-English which is composed by 1,909,115 parallel sentences which is much smaller corpus than the one used in the paper (17M sentences). You can also find the .txt files inside the [data](data) directory.
 
 
 ### Encoding
