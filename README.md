@@ -15,9 +15,7 @@ For the encoding procedure we use the following command from the utils directory
 python tokenization.py
 ```
 
-this will create a .pth file inside the data directory called tokenized_parallel_sentences.pth that will contain a list of pairs where in the first position of
-the pair there is the tokenized sentence in the source language (as a list) and in the second one 
-the tokenized sentence in the target language.
+this will create a .pkl file called tokenized_parallel_sentences.pkl inside the data directory that will contain a list of pairs where in the first position of the pair there is the tokenized sentence in the source language (English in my case) and in the second one the tokenized sentence in the target language (Italian).
 
 
 Example:
