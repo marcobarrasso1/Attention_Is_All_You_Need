@@ -7,9 +7,9 @@ I decided to use the [Europarl Parallel Corpus](https://www.statmt.org/europarl/
 
 
 ### Encoding
-For the text encoding i used the Open Ai's [tiktoken]([path/to/file](https://github.com/openai/tiktoken?tab=readme-ov-file)) BPE tokenizer which has a vocabulary size of 50257 tokens unlike the paper where they used a vocabulary of 32K tokens. The encodings procedure can be found inside the [utils](utils) directory.
+For the text encoding i used the Open Ai's [tiktoken]([path/to/file](https://github.com/openai/tiktoken?tab=readme-ov-file)) BPE tokenizer which has a vocabulary size of 50257 tokens unlike the paper where they used a vocabulary of 32K tokens. The encodings code can be found inside the [utils](utils) directory.
 
-We encode the 
+For the encoding procedure we use the following command that will create a .pth file inside the data directory called tokenized_parallel_sentences.pth that will contain a list of cuples
 
 ```
 python tokenization.py
