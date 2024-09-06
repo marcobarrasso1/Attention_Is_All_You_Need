@@ -3,7 +3,6 @@ This training script can be run both on a single gpu
 and also in a larger training run with distributed data parallel (ddp).
 """
 
-# to do: training loss calculation is wrong look at the training_log.txt 
 
 import torch as th
 from torch.optim.lr_scheduler import LambdaLR
@@ -51,7 +50,7 @@ with open('data/tokenized_parallel_sentences.pkl', 'rb') as f:
 # taking sentence that has a desired maximum length
 tokenized_parallel_sentences = [sent for sent in tokenized_parallel_sentences if len(sent[0]) < Config.len_seq and len(sent[1]) < Config.len_seq]
 
-DATASET_SIZE = 700032 # the real size of the dataset is 352019. Rounded (for efficiency) to the nearest number divisible by the used batch size (384)
+DATASET_SIZE = 1.908.480 # the real size of the dataset is 1,909,115. Rounded (for efficiency) to the nearest number divisible by the used batch size (384)
 
 # sampling as many parallel sentences as defined in DATASET_SIZE variable
 tokenized_parallel_sentences = random.sample(tokenized_parallel_sentences, DATASET_SIZE)
