@@ -10,4 +10,4 @@ class Config:
     n_layer: int = 6
     dropout: float = 0.1
     batch_size: int = 384  # depending on the device
-    max_iter: int = 30 # epochs
+    max_iter: int = 22 # epochs
