@@ -12,7 +12,7 @@ I decided to use the [Europarl Parallel Corpus](https://www.statmt.org/europarl/
 ## Encoding
 For the text encoding i used the Open Ai's [tiktoken]([path/to/file](https://github.com/openai/tiktoken?tab=readme-ov-file)) BPE tokenizer which has a vocabulary size of 50257 tokens unlike the paper where they used a vocabulary of 32K tokens. The encodings code can be found inside the [utils](utils) directory.
 
-For the encoding procedure we use the following command from the utils directory:
+For the encoding procedure we run the following command from the utils directory:
 
 ```
 python tokenization.py
