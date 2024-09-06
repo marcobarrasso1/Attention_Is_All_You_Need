@@ -5,4 +5,7 @@ In this repo i tried to reproduce the transformer from the paper <a href="https:
 ### Encoding
 For the encoding i used the Open Ai's [tiktoken]([path/to/file](https://github.com/openai/tiktoken?tab=readme-ov-file)) BPE tokenizer which has a vocabulary size of 50257 tokens unlike the paper where they used a vocabulary of 32K tokens. The encodings procedure can be found inside the [utils](utils) directory.
 
+```
+python
 
+```
