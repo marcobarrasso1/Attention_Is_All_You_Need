@@ -101,6 +101,7 @@ if master_process:
 n_train = len(data_loader_train) * (ddp_world_size if ddp else 1)
 n_val = len(data_loader_val) * (ddp_world_size if ddp else 1)
 
+# at each iteration we evaluate the loss on the training and validation set and write the results onto the file
 for iter in range(Config.max_iter):  
     
     model.eval()  
@@ -115,11 +116,11 @@ for iter in range(Config.max_iter):
             
     if ddp:
         val_loss_tensor = th.tensor(val_loss, device=device)
-        dist.all_reduce(val_loss_tensor, op=dist.ReduceOp.SUM)
+        dist.all_reduce(val_loss_tensor, op=dist.ReduceOp.SUM) # summing losses calculated by the different processes
         val_loss = val_loss_tensor.item()
     
     if master_process:  
-        avg_val_loss = val_loss / n_val
+        avg_val_loss = val_loss / n_val # avarage validation loss per batch
         print(f"Iteration {iter} | Val Loss: {(avg_val_loss):.4f}")
         sys.stdout.flush()
               
@@ -145,12 +146,12 @@ for iter in range(Config.max_iter):
 
         
     if master_process:
-        avg_train_loss = train_loss / n_train # avarage loss per batch 
+        avg_train_loss = train_loss / n_train # avarage training loss per batch 
         print(f"Iteration {iter} | Train Loss: {(avg_train_loss):.4f} | learning rate: {round(lr_scheduler.get_last_lr()[0],6)}")
         sys.stdout.flush()
     
         
-    if iter % 3 == 0: # every ten epochs save the model parameters
+    if iter % 3 == 0: # every 3 epochs save the model parameters
         if master_process:
             model_path = f"weights/model_weights_epoch_{iter}.pth"
             th.save(model.state_dict(), model_path)
