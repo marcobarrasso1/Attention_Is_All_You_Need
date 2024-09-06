@@ -5,6 +5,7 @@ In this repo i tried to reproduce the Transformer from the paper <a href="https:
 
 ## Dataset
 I decided to use the [Europarl Parallel Corpus](https://www.statmt.org/europarl/) Italian-English which is composed by 1,909,115 parallel sentences which is much smaller corpus than the one used in the paper (17M sentences). You can also find the .txt files inside the [data](data) directory.
+I used a smaller dataset because for a really large dataset, like the one in the paper, the training would have taken too much time and resources.
 
 
 
@@ -33,4 +34,13 @@ Example:
 
 
  ## Training
+
+The model can be trained with one gpu: 
+```
+python train.py
+```
+but the code also support distributed training. In my case i trained the model on 4 RTX 4090 gpus for almost 3 hours with this command:
+```
+torchrun --standalone --nproc_per_node=4 train.py
+```
 
