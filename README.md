@@ -43,4 +43,5 @@ but the code also support distributed training. In my case i trained the model o
 ```
 torchrun --standalone --nproc_per_node=4 train.py
 ```
+the --standalone flag is used to indicate that the processes will be located in the same node.
 
