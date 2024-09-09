@@ -45,3 +45,8 @@ torchrun --standalone --nproc_per_node=4 train.py
 ```
 the --standalone flag is used to indicate that the processes will be located on the same node.
 
+### Model Configuration
+
+![Model Config](images/model_specification.png)
+
+
