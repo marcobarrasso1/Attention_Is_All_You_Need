@@ -55,3 +55,10 @@ I used a smaller dataset because for a really large dataset, like the one in the
 ### Training Results
 
 ![losses](images/losses.png)
+
+The random_test.py can be used to sample senteces from the validation set to see how well the model translates. It takes an argument passed by command line that is the number of senteces to translate. For example:
+```
+python random_test.py 4
+```
+
+
