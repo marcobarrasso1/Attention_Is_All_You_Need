@@ -2,6 +2,13 @@
 
 In this repo i tried to reproduce the Transformer from the paper <a href="https://arxiv.org/pdf/1706.03762" target="_blank">Attention_Is_All_You_Need<a> and use it to make some translation from English-to-Italian. The network uses an Encoder-Decoder architecture based solely on attention mechanisms. The code for the Transformer can be found in the [model.py](model.py) file.
 
+## Dependencies
+```
+pip install -r requirements.txt
+```
+
+* pytorch
+* 
 
 ## Encoding
 For the text encoding i used the Open Ai's [tiktoken](https://github.com/openai/tiktoken) BPE tokenizer which has a vocabulary size of 50257 tokens unlike the paper where they used a vocabulary of 32K tokens. The encodings code can be found inside the [utils](utils) directory.
