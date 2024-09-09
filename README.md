@@ -47,6 +47,6 @@ the --standalone flag is used to indicate that the processes will be located on 
 
 ### Model Configuration
 
-![Model Config](images/model_specification.png)
+![Model Config](images/model_config.png)
 
 
