@@ -101,7 +101,7 @@ My name is Marco and i am Italian.
 Il mio nome è e sono l'unico a chiamarlo: "Sono Marco Polo".
 ```
 
-The translation this time is totally wrong and this is due to the fact that the model has been trained on dataset that consists of parliamentary proceedings. This dataset is heavily skewed towards formal, political, and legislative language so it struggles with simple senteces like "My name is Marco and i am Italian"
+The translation this time is totally wrong and this is due to the fact that the model has been trained on dataset that consists of parliamentary proceedings. This dataset is heavily skewed towards formal, political, and legislative language so it struggles with simple sentences like "My name is Marco and i am Italian"
 
 
 
