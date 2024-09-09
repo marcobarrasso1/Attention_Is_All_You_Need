@@ -49,7 +49,7 @@ def test(n, model, data_loader, config, device):
         
         out = pred(src_seq, model, config, device)
         
-        print(f"Prediction: {clean_decode(out)}, True: {clean_decode(true_seq.tolist())}, Source: {clean_decode(src_seq[0].tolist())} \n")
+        print(f"Prediction: {clean_decode(out)} True: {clean_decode(true_seq.tolist())} Source: {clean_decode(src_seq[0].tolist())} \n")
 
 
 # function to translate a sentence
