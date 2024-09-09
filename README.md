@@ -54,4 +54,4 @@ I used a smaller dataset because for a really large dataset, like the one in the
 
 ### Results
 
-
+![losses](images/losses.png)
