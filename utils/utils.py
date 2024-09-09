@@ -38,8 +38,6 @@ def clean_decode(seq):
 # function to make translation of sentences in the validation set
 def test(n, model, data_loader, config, device):
 
-    print("Random Tests")
-    print("*"*30)
     for i in range(n):
         random_batch = random.choice(list(data_loader))
         source_test, _, target_test = random_batch
@@ -52,7 +50,6 @@ def test(n, model, data_loader, config, device):
         out = pred(src_seq, model, config, device)
         
         print(f"Prediction: {clean_decode(out)}, True: {clean_decode(true_seq.tolist())}, Source: {clean_decode(src_seq[0].tolist())} \n")
-    print("*"*30)
 
 
 # function to translate a sentence
