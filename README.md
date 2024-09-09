@@ -80,6 +80,21 @@ True: Signor Presidente, la commercializzazione di medicinali contraffatti ha fa
 Source: The marketing of falsified medicinal products has increased public health risks over recent years.
 ```
 
+If you know some italian you will notice that the translations are pretty good and i'm actually satisfied with these results considering the relatively small training.
+
+I also created, with poor results, a [translate.py](translate.py) to see how the model would perform with a sentence chosen by the user. After running tis command:
+```
+python translate.py
+```
+it will ask to enter a sentence that will be translated, for example:
+```
+Enter a sentence: My name is Marco and i am Italian.
+My name is Marco and i am Italian.
+Il mio nome è e sono l'unico a chiamarlo: "Sono Marco Polo".
+```
+
+The translation this time is totally wrong and this is due to the fact that the model has been trained on dataset that consists of parliamentary proceedings. This dataset is heavily skewed towards formal, political, and legislative language so it struggles with simple senteces like "My name is Marco and i am Italian"
+
 
 
 
