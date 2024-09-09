@@ -61,4 +61,23 @@ The random_test.py can be used to sample senteces from the validation set to see
 python random_test.py 4
 ```
 
+That generetas the following output:
+```
+Prediction: Ultimo, ma non meno importante, come ho detto, è di adottare un approccio comune.
+, True: L'ultimo punto, ma non per importanza, è, come ho detto, l'adozione di un approccio comune.
+, Source: Last, but not least, it is important, as I said, to adopt a common approach.
+
+Prediction: (RO) Signora Presidente, dal 2009 la politica commerciale è sotto il mandato esclusivo dell'Unione europea e ora dobbiamo trovare un denominatore comune per una parte esclusiva degli investimenti esteri.
+, True: (RO) Signora Presidente, dal 2009 la politica commerciale è diventata di competenza esclusiva dell'Unione europea e ora dobbiamo trovare un denominatore comune per una parte cospicua della politica in materia di investimenti esteri.
+, Source: (RO) Madam President, since 2009, commercial policy has come under the exclusive remit of the European Union and we must now find a common denominator for a large part of foreign investment policy.
+
+Prediction: In secondo luogo, per quanto riguarda la questione della partecipazione del pubblico, onorevole Oettinger, lei ha affermato che non abbiamo bisogno di regolamenti precisi in questo campo.
+, True: In secondo luogo, per quanto riguarda la partecipazione pubblica, lei, Commissario Oettinger, sostiene che non abbiamo bisogno di regolamenti dettagliati in questo settore.
+, Source: Secondly, on the issue of public participation, you said, Mr Oettinger, that we do not need detailed regulations in this area.
+
+
+```
+
+
+
 
