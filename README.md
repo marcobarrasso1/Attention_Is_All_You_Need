@@ -1,6 +1,6 @@
 # Attention_Is_All_You_Need
 
-In this repo i tried to reproduce the Transformer from the paper <a href="https://arxiv.org/pdf/1706.03762" target="_blank">Attention_Is_All_You_Need<a> and use it to make some translation from English-to-Italian. The network uses an Encoder-Decoder architecture based solely on attention mechanisms. The code for the Transformer can be found in the [model.py](model.py) file.
+In this repo i tried to reproduce the Transformer from the paper <a href="https://arxiv.org/pdf/1706.03762" target="_blank">Attention_Is_All_You_Need<a> and use it to make some translation from English-to-Italian. The network uses an Encoder-Decoder architecture based solely on attention mechanisms. The commented code for the Transformer can be found in the [model.py](model.py) file.
 
 ## Dependencies
 ```
