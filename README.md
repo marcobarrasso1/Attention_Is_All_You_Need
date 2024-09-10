@@ -12,7 +12,7 @@ pip install -r requirements.txt
 * tiktoken
 
 ## Encoding
-For the text encoding i used the Open Ai's [tiktoken](https://github.com/openai/tiktoken) BPE tokenizer which has a vocabulary size of 50257 tokens unlike the paper where they used a vocabulary of 32K tokens. The encodings code can be found inside the [utils](utils) directory.
+For the text encoding i used the Open Ai's [tiktoken](https://github.com/openai/tiktoken) BPE tokenizer which has a vocabulary size of more than 50K tokens unlike the paper where they used a vocabulary of 32K tokens. The encodings code can be found inside the [utils](utils) directory.
 
 For the encoding procedure we run the following command from the utils directory:
 
