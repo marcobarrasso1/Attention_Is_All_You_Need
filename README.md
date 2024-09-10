@@ -62,10 +62,8 @@ I decided to use the [Europarl Parallel Corpus](https://www.statmt.org/europarl/
 I used a smaller dataset because for a really large dataset, like the one in the paper, the training would have taken too much time and resources.
 
 ### Training Results
-<img src="images/losses.png" alt="Description" width="750"/>
+<img src="images/losses.png" alt="Description" width="800"/>
 
-
-![losses](images/losses.png)
 
 The [random_test.py](random_test.py) file can be used to sample senteces from the validation set to see how well the model translates. It takes an argument passed by command line that is the number of senteces to translate. For example:
 ```
