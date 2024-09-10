@@ -89,7 +89,7 @@ True: Signor Presidente, la commercializzazione di medicinali contraffatti ha fa
 Source: The marketing of falsified medicinal products has increased public health risks over recent years.
 ```
 
-If you know some italian you will notice that the translations are pretty good and i'm actually satisfied with these results considering the relatively small training.
+If you know a little bit of italian you will notice that the translations are pretty good and i'm actually satisfied with these results considering the relatively small training.
 
 I also created, with poor results, a [translate.py](translate.py) to see how the model would perform with a sentence chosen by the user. After running tis command:
 ```
