@@ -62,7 +62,7 @@ I decided to use the [Europarl Parallel Corpus](https://www.statmt.org/europarl/
 I used a smaller dataset because for a really large dataset, like the one in the paper, the training would have taken too much time and resources.
 
 ### Training Results
-<img src="images/losses.png" alt="Description" width="300"/>
+<img src="images/losses.png" alt="Description" width="600"/>
 
 
 ![losses](images/losses.png)
