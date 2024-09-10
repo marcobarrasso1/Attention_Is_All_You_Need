@@ -54,7 +54,7 @@ I used the base model configuration described in the original paper:
 
 The model configuration can be found in the [config.py](config.py) file where i add the batch size and the max epoch for the training.
 I used a batch size of 384 since i used 4 gpus and i wanted to make the most of the available RAM and trained for 22 epochs. The training took almost 3 hours.
-Since i used a larger vocabualry size the number of model parameteres are not 65M like in the paper but 95M.
+Since i used a larger vocabualry size the number of model parameteres is not 65M like in the paper but 95M.
 
 
 ### Dataset
