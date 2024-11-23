@@ -58,7 +58,7 @@ Since i used a larger vocabualry size the number of model parameteres is not 65M
 
 
 ### Corpus
-I decided to use the [Europarl Parallel Corpus](https://www.statmt.org/europarl/) Italian-English which is composed by 1,909,115 parallel sentences which is much smaller corpus than the one used in the paper (17M sentences). You can also find the .txt files inside the [data](data) directory.
+I decided to use the [Europarl Parallel Corpus](https://www.statmt.org/europarl/) Italian-English which is composed by 1,909,115 parallel sentences which is much smaller corpus than the one used in the paper (36M sentences). You can also find the .txt files inside the [data](data) directory.
 I used a smaller dataset because for a really large dataset, like the one in the paper, the training would have taken too much time and resources.
 
 ### Training Results
